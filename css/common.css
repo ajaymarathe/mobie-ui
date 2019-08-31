@@ -231,3 +231,15 @@
     margin-bottom: .9em;
     margin-top: .2em;
 }
+
+ /*fourth section */
+ .fourth-section .footer-links a{
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #343a40!important;
+ }
+
+.fourth-section .footer-links a:first-child{
+    font-weight: 600;
+    font-size: 18px;
+ }
