@@ -283,3 +283,11 @@
  .nav-mobie .mobie-nav a{
     color: white !important;
  }
+
+ /*chat page*/
+.chat{
+    background: #EEEEEE;
+}
+.chat .chat-screen{
+    margin-bottom: 1.5rem;
+}
