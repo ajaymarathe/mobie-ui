@@ -1,0 +1,27 @@
+{
+  "name": "mobie-ui",
+  "version": "0.0.1",
+  "description": "Bootstrap + Vue to create Hybrid mobile application, which will run on all cross platform, like Android, Ios, Desktop etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajaymarathe/mobie-ui.git"
+  },
+  "keywords": [
+    "mobie-ui",
+    "mobie-vue",
+    "mobie-angular"
+  ],
+  "author": "Ajay Marathe <0107amar@gmail.com> (http://bootcatch.com/lightly)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajaymarathe/mobie-ui/issues"
+  },
+  "homepage": "https://github.com/ajaymarathe/mobie-ui#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
+}
