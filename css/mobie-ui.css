@@ -1,69 +1,76 @@
-/*first section*/
-.first-section h1{
-    margin-bottom: 3rem;
-      font-size: 48px;
-      font-weight: 700;
-      margin-bottom: .9em;
-      margin-top: .2em;
-  }
-  .first-section{
-     /* background-color: #f7b42c;
-      background-image: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);*/
-      /*color:white;*/
-      padding-top: 2rem;
-      padding-bottom: 2rem;
-  }
-  .first-section a{
-      /*color: #fff !important;*/
-  }
-  
-  .first-section, .buttons, .links{
-    padding-top: 1rem;
-  }
-  .first-section .buttons .btn{
-      border-radius: 1.5rem !important;
-  }
-  
-  /*second section */
-  .second-section{
-      padding-top: 3rem;
-      padding-bottom: 3rem;
-      background-image: url('../img/Backgrounds/bg8.svg');
-      background-size: cover;
-      background-position: center;
-  }
-  .second-section h3{
-      margin-bottom: 3rem;
-      font-size: 48px;
-      font-weight: 700;
-      text-align: center;
-      margin-bottom: .9em;
-      margin-top: .2em;
-  }
-  
-  /*third section*/
-  .third-section h3{
-      font-size: 48px;
-      font-weight: 700;
-      text-align: center;
-      /*color: #ee350f;*/
-      margin-bottom: .9em;
-      margin-top: .2em;
-  }
-  
-   /*fourth section */
-   .fourth-section .footer-links a{
-      display: block;
-      margin-bottom: 0.5rem;
-      color: #343a40!important;
-   }
-  
-  .fourth-section .footer-links a:first-child{
-      font-weight: 600;
-      font-size: 18px;
-   }
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+body, .mobile-view {
+  font-family: 'Poppins', sans-serif !important;
+}
 
+/*first section*/
+.first-section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.first-section, .buttons, .links {
+  padding-top: 1rem;
+}
+
+.first-section .buttons .btn {
+  border-radius: 1.5rem !important;
+}
+
+/*second section */
+.second-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("../img/Backgrounds/bg2.svg");
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+}
+
+.second-section .header {
+  margin-bottom: 3rem;
+}
+
+.third-section {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+/*fourth section */
+.fourth-section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.fourth-section .footer-links a {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: white !important;
+}
+
+.fourth-section .footer-links a:first-child {
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
 
 .mean-fruit {
-    background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+  background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
 }
+
+.azure {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+/*# sourceMappingURL=mobie-ui.css.map */

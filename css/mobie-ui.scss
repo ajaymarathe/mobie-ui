@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body, .mobile-view{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/*first section*/
+.first-section{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .first-section, .buttons, .links{
+    padding-top: 1rem;
+  }
+  .first-section .buttons .btn{
+      border-radius: 1.5rem !important;
+  }
+  
+  /*second section */
+  .second-section{
+      display: flex;
+      align-items: center;
+      background-image: url('../img/Backgrounds/bg2.svg');
+      background-size: cover;
+      background-position: center;
+      height: 60vh;
+  }
+
+  .second-section .header{
+      margin-bottom: 3rem;
+  }
+  
+//   third-section
+.third-section{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+  
+   /*fourth section */
+
+   .fourth-section{
+       padding-top: 4rem;
+       padding-bottom: 4rem;
+   }
+   .fourth-section .footer-links a{
+      display: block;
+      margin-bottom: 0.5rem;
+      color: white !important;
+   }
+  
+  .fourth-section .footer-links a:first-child{
+      font-weight: 500;
+      font-size: 18px;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+   }
+
+
+.mean-fruit {
+    background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+}
+
+.azure{
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
