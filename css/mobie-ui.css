@@ -7,7 +7,6 @@ body, .mobile-view {
 .first-section {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
